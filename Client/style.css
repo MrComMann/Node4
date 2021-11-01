@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap');
+
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Comfortaa';
+}
+
+body{
+   background-image: url("images/myPictureNow.jpg");
+   background-size: cover;
+   width: 100vw;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+
+.form {
+   height: 400px;
+   width: 300px;
+   background-color: rgba(63, 63, 63, 0.282);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 15px;
+}
+
+.form2 {
+   height: 500px;
+   width: 300px;
+   background-color: rgba(63, 63, 63, 0.282);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   border-radius: 15px;
+}
+
+h1{
+   font-size: 50px;
+   margin-bottom: 20px;
+   color: white;
+   text-shadow: black 1px 0 15px;
+}
+
+p{
+   color: white;
+   text-shadow: black 1px 0 5px;
+   font-size: 16px;
+}
+
+input{
+   background-color: rgba(63, 63, 63, 0.446);
+   font-size: 18px;
+   height: 32px;
+   padding: 5px 10px;
+   box-sizing: border-box;
+   border-radius: 16px;
+   box-decoration-break: none;
+   border: none;
+}
+
+.part {
+   margin: 5px;
+}
+
+button {
+   background-color:rgba(63, 63, 63, 0.446);
+   border: 2px solid rgba(255, 255, 255, 0.275);
+   border-radius: 16px;
+   height: 32px;
+   width: 237px;
+   color: white;
+   font-size: 18px;
+}
+
+button:hover {
+   background-color: rgba(0, 0, 0, 0.583);
+}
